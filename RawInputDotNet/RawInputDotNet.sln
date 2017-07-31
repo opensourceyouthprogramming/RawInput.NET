@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawInputDotNet", "RawInputDotNet\RawInputDotNet.csproj", "{D8E77CAE-7538-4405-9AC9-ED71E666122C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleApplication", "ExampleApplication\ExampleApplication.csproj", "{29851E61-EF72-4097-ABE4-F790BF58DE3A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D8E77CAE-7538-4405-9AC9-ED71E666122C} = {D8E77CAE-7538-4405-9AC9-ED71E666122C}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{D8E77CAE-7538-4405-9AC9-ED71E666122C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8E77CAE-7538-4405-9AC9-ED71E666122C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8E77CAE-7538-4405-9AC9-ED71E666122C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29851E61-EF72-4097-ABE4-F790BF58DE3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29851E61-EF72-4097-ABE4-F790BF58DE3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29851E61-EF72-4097-ABE4-F790BF58DE3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29851E61-EF72-4097-ABE4-F790BF58DE3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
